@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.btn {
+    display: inline-block;
+    background: #5cb85c;
+    color: #fff;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #4cae4c;
+}
+
+.btn-edit {
+    background: #f0ad4e;
+}
+
+.btn-edit:hover {
+    background: #eea236;
+}
+
+.btn-delete {
+    background: #d9534f;
+}
+
+.btn-delete:hover {
+    background: #d43f3a;
+}
+
+.btn-secondary {
+    background: #aaa;
+}
+
+.btn-secondary:hover {
+    background: #888;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
