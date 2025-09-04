@@ -22,7 +22,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina:
 1.  **Clone o repositório:**
     ```bash
     # Clone este repositório (substitua pela URL correta se necessário)
-    git clone <URL_DO_SEU_REPOSITORIO>
+    git clone https://github.com/Thxgirl4/crud_restaurantes.git
     
     # Entre na pasta do projeto
     cd projeto02
